@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/leaflet
+# catalog-date 2008-01-04 22:30:39 +0100
+# catalog-license lppl
+# catalog-version 1.0c
 Name:		texlive-leaflet
 Version:	1.0c
 Release:	1
@@ -49,6 +55,7 @@ permission of the original author Jurgen Schlegelmilch.
 #- source
 %doc %{_texmfdistdir}/source/latex/leaflet/leaflet.dtx
 %doc %{_texmfdistdir}/source/latex/leaflet/leaflet.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ permission of the original author Jurgen Schlegelmilch.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
