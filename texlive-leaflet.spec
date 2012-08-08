@@ -1,12 +1,12 @@
-# revision 15878
+# revision 27126
 # category Package
 # catalog-ctan /macros/latex/contrib/leaflet
-# catalog-date 2008-01-04 22:30:39 +0100
+# catalog-date 2012-07-05 15:17:31 +0200
 # catalog-license lppl
-# catalog-version 1.0c
+# catalog-version 1.0d
 Name:		texlive-leaflet
-Version:	1.0c
-Release:	2
+Version:	1.0d
+Release:	1
 Summary:	Create small handouts (flyers)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/leaflet
