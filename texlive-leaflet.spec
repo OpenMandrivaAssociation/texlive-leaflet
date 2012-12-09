@@ -55,3 +55,21 @@ permission of the original author Jurgen Schlegelmilch.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0d-1
++ Revision: 812563
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0c-2
++ Revision: 753214
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0c-1
++ Revision: 718841
+- texlive-leaflet
+- texlive-leaflet
+- texlive-leaflet
+- texlive-leaflet
+
