@@ -1,11 +1,11 @@
-# revision 27126
+# revision 32093
 # category Package
 # catalog-ctan /macros/latex/contrib/leaflet
-# catalog-date 2012-07-05 15:17:31 +0200
+# catalog-date 2013-11-07 14:52:10 +0100
 # catalog-license lppl
-# catalog-version 1.0d
+# catalog-version 1.0e
 Name:		texlive-leaflet
-Version:	1.0d
+Version:	1.0e
 Release:	1
 Summary:	Create small handouts (flyers)
 Group:		Publishing
@@ -55,21 +55,3 @@ permission of the original author Jurgen Schlegelmilch.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0d-1
-+ Revision: 812563
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0c-2
-+ Revision: 753214
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0c-1
-+ Revision: 718841
-- texlive-leaflet
-- texlive-leaflet
-- texlive-leaflet
-- texlive-leaflet
-
