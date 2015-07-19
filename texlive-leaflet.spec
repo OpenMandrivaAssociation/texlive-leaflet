@@ -6,7 +6,7 @@
 # catalog-version 1.0e
 Name:		texlive-leaflet
 Version:	1.0e
-Release:	8
+Release:	9
 Summary:	Create small handouts (flyers)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/leaflet
