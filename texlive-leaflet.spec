@@ -1,12 +1,6 @@
-# revision 32093
-# category Package
-# catalog-ctan /macros/latex/contrib/leaflet
-# catalog-date 2013-11-07 14:52:10 +0100
-# catalog-license lppl
-# catalog-version 1.0e
 Name:		texlive-leaflet
-Version:	1.0e
-Release:	9
+Version:	1.1b
+Release:	1
 Summary:	Create small handouts (flyers)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/leaflet
@@ -37,14 +31,10 @@ permission of the original author Jurgen Schlegelmilch.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/leaflet/leaflet.cls
-%doc %{_texmfdistdir}/doc/latex/leaflet/README
-%doc %{_texmfdistdir}/doc/latex/leaflet/leaflet-manual.pdf
-%doc %{_texmfdistdir}/doc/latex/leaflet/leaflet-manual.tex
-%doc %{_texmfdistdir}/doc/latex/leaflet/leaflet.pdf
+%{_texmfdistdir}/tex/latex/leaflet
+%doc %{_texmfdistdir}/doc/latex/leaflet
 #- source
-%doc %{_texmfdistdir}/source/latex/leaflet/leaflet.dtx
-%doc %{_texmfdistdir}/source/latex/leaflet/leaflet.ins
+%doc %{_texmfdistdir}/source/latex/leaflet
 
 #-----------------------------------------------------------------------
 %prep
