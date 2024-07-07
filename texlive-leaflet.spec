@@ -1,6 +1,6 @@
 Name:		texlive-leaflet
-Version:	56878
-Release:	2
+Version:	70652
+Release:	1
 Summary:	Create small handouts (flyers)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/leaflet
