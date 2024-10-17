@@ -3,7 +3,7 @@ Version:	70652
 Release:	1
 Summary:	Create small handouts (flyers)
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/leaflet
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/leaflet
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/leaflet.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/leaflet.doc.r%{version}.tar.xz
